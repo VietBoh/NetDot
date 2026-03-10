@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "c:/Users/baoch/OneDrive/Documents/Program files",
-      "program": "c:/Users/baoch/OneDrive/Documents/Program files/build/Debug/outDebug",
+      "cwd": "c:/Users/baoch/OneDrive/Máy tính/NetDot",
+      "program": "c:/Users/baoch/OneDrive/Máy tính/NetDot/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
