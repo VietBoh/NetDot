@@ -69,7 +69,7 @@ While($true){
         }
     }
 }
-
+Clear-Host
 ForEach($Good in $bye){ Write-Host $Good -ForegroundColor Green}
 Start-Sleep -Seconds 1
 # Main Script
