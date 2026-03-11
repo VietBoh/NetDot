@@ -28,8 +28,10 @@ Start-Sleep -Seconds 3
 
 While($true){
     Clear-Host
-    [string]$URL = Read-Host "Enter URL or type `"Quit or Q`" to quit"
+    [uri]$URL = Read-Host "Enter URL or type `"Quit or Q`" to quit"
+
     if($URL -in @('Quit','Q','q')){ break }
+    if($URL -notmatch "^www."){ $URL = "www.$URL" }
 
     if([string]::IsNullOrWhiteSpace($URL)){
         Write-Warning "`nURLs cannot be left blank."
